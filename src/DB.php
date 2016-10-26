@@ -3,8 +3,10 @@
 
 namespace App;
 
-class DB extends DBInteractor
+class DB
 {
+
+    use DBInteractor;
     protected $db;
 
     public function __construct()

@@ -11,7 +11,7 @@ namespace App;
 use PDO;
 use PDOException;
 
-abstract class DBInteractor
+trait DBInteractor
 {
     protected function dbConfig($key, $default = null)
     {
