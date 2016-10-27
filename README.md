@@ -41,6 +41,7 @@ Create one in the root of your project if none exists.
 DB_HOST=localhost
 DB_DRIVER=mysql
 DB_USER=yourdbuser
+DB_NAME=yourdb
 DB_PASS=yourawesomedbpassword
 
 ```

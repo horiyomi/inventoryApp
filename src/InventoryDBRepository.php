@@ -71,8 +71,6 @@ class InventoryDBRepository
     }
 
 
-
-
     public function getAllAvailableProducts()
     {
         return $this->db->getAllDataWhere('products', "no_of_items > 0");
